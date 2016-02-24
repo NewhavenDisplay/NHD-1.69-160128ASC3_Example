@@ -1121,9 +1121,9 @@ void OLED_Spectrum_160128RGB(void)                  // function to show color sp
 void OLED_Init_160128RGB(void)      //OLED initialization
 {
     digitalWrite(RES_PIN, LOW);
-    delay(500);
+    delay(2);
     digitalWrite(RES_PIN, HIGH);
-    delay(500);
+    delay(2);
     
     // display off, analog reset
     OLED_Command_160128RGB(0x04);
